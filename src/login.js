@@ -22,7 +22,7 @@ const Login = ({ onLogin }) => {
     }
 
     try {
-      const res = await fetch("https://backend-sc0x.onrender.com/login", {
+      const res = await fetch("https://career-backend-y8om.onrender.com/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),

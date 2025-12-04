@@ -20,7 +20,7 @@ const Chat = () => {
     setIsTyping(true);
 
     try {
-      const res = await fetch('https://chatbot-ai-3407.onrender.com/chat', {
+      const res = await fetch('https://career-backend-y8om.onrender.com/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: userMessage }),

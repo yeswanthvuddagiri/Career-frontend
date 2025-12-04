@@ -7,7 +7,7 @@ const ForgotPassword = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://backend-sc0x.onrender.com/forgot-password", {
+    const res = await fetch("https://career-backend-y8om.onrender.com/forgot-password", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email }),

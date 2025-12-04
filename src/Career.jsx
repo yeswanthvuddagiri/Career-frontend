@@ -17,7 +17,7 @@ const Career = () => {
   const user = JSON.parse(localStorage.getItem("user")); // ✅ get email
 
   try {
-    const response = await fetch('https://backend-sc0x.onrender.com/recommend', {
+    const response = await fetch('https://career-backend-y8om.onrender.com/recommend', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
